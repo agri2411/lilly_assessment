@@ -1,0 +1,132 @@
+.headerTitle{
+	    	margin-top: 5px;
+		    display: inline-block;
+		    margin-left: 10px;
+		    font-size: 14px;
+		    font-weight: bold;
+		    color: #fff;
+	    }
+	    .headerBg{
+	    	width:100%;
+	    	height:30px;
+	    	float:left;
+	    	background: #9e9e9e;
+	    	border-radius:5px 5px 0 0;
+	    }
+	    .imageWrapper{
+		    width:60%;
+		    height:530px;
+		    float:left;
+		    border: 1px solid #cacaca;
+		    border-radius:5px 5px 0 0;
+		    margin-top:10px;
+			display:none;
+		}
+		.detailsWrapper,.proWrapper{
+			width:38%;
+			height:210px;
+			float:left;
+			border: 1px solid #cacaca;
+			border-radius:5px 5px 0 0;
+			margin:10px 0 0 10px;
+			display:none;
+		}
+		.bodyTableWrapper{
+			width:100%;
+			height:180px;
+			overflow: auto;
+			border-bottom: 1px solid #cacaca;
+		}
+		.imageContainer{
+			width:54.2%;
+			height:auto;
+			float:left;
+			z-index:999;
+		}
+		#preview{
+			height:500px;
+			/*border-right:1px solid #cacaca;*/
+			z-index:999;
+		}
+		.imageBody{
+			width:100%;
+			height:500px;
+			float:left;
+		}
+		#svgBody{
+			position:absolute;
+			z-index:1;
+			margin:0;
+			padding:0;
+			top:71px;
+			left:9px;
+		}
+		#contentWrapper{
+			width:100%;
+			height:180px;
+			float:left;
+		}
+		.tileWrapper{
+			width: 30%;
+		    float: left;
+		    height: 75px;
+		    margin: 10px 2px 0 10px;
+		}
+		.tileHeader{
+			width: 100%;
+    		height: 25px;
+    		border-bottom: 3px solid #79bcd4;
+		}
+		.tileHeaderLabel{
+			display: inline-block;
+    		margin: 5px 0 0 5px;
+    		line-height: 22px;
+		}
+		.tileBodyWrapper{
+			width: 99%;
+		    height: 60px;
+		    border: 1px solid #dadada;
+		    border-radius: 0 0 5px 5px;
+		    -moz-box-shadow: 2px 4px 5px 0px #dadada;
+		    -webkit-box-shadow: 2px 4px 5px 0px #dadada;
+		    box-shadow: 2px 4px 5px 0px #dadada;
+		}
+		.tileBodyLabel{
+			display: inline-block;
+		    text-align: center;
+		    width: 100%;
+		    line-height: 50px;
+		}
+		thead th {
+			color: #ffffff;
+			width:25%;
+			height:25px;
+			padding-left:5px;
+			border-right: 1px solid #f9f9f9;
+		}
+		tbody tr td{
+			height: 25px;
+    		padding-left: 5px;
+    		border-bottom: 1px solid #cacaca;
+		}
+		.uploadContainer{
+			width: 31%;
+		    height: 50px;
+		    border: 1px solid #cacaca;
+		    border-radius: 5px;
+		}
+		.uploadWrapper{
+			width: 98.7%;
+		    height: 50px;
+		    line-height: 50px;
+		    padding: 0 0 0 5px;
+		    border-radius: 5px;
+		    background: #eae8e8;
+		}
+		.uploadInput{
+			border-radius: 5px;
+		    border: 3px dashed #dadada;
+		    height: 30px;
+		    padding-left: 2px;
+		    padding-top: 5px;
+		}

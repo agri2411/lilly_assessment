@@ -1,0 +1,91 @@
+body { font: 12px Arial;}
+
+path {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+.circle{
+    fill: white;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+.tooltip{
+    position: absolute;
+    top: 180px;
+    border: 1px solid steelblue;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+.filterWrapper{
+  width:100%;
+  height:50px;
+  border-radius: 5px;
+  border:1px solid #9e9e9e;
+}
+.filterContent{
+    width: 20%;
+    height: 35px;
+    margin: 10px 0 0 10px;
+}
+.filterHeader{
+    width: 44.6%;
+    float: left;
+    height: 32px;
+    background: #9e9e9e;
+    border-radius: 5px 0 0 5px;
+    line-height: 30px;
+}
+.filterHeader span {
+    margin-left: 5px;
+    color: #fff;
+}
+.filterSelect{
+  width: 55%;
+    height: 30px;
+    float: right;
+    border-radius: 0 5px 5px 0;
+    border:1px solid #9e9e9e;
+    border-left:none;
+}
+#selectButton{
+    height:30px;
+    border: none;
+    width: 95%;
+}
+.graphWrapper{
+      width: 57%;
+      height: 410px;
+      /*float:left;*/
+      border: 1px solid #9e9e9e;
+      border-radius:5px 5px 0 0;
+      margin:10px 0 0 10px;
+    }
+.WidgetHeaderWrapper{
+        width:100%;
+        height:30px;
+        /*float:left;*/
+        background: #9e9e9e;
+        border-radius:5px 5px 0 0;
+      }
+.WidgetHeaderTitle{
+        margin-top: 5px;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .widgetContentWrapper{
+      width:100%;
+      height:180px;
+      /*float:left;*/
+    }
